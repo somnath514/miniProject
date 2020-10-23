@@ -1,0 +1,234 @@
+// Main Body Style
+body {    
+    overflow-x: hidden;
+    height: 100%;
+    background-image: linear-gradient(to right,rgb(211, 222, 228), #2196F3);
+    background-repeat: no-repeat
+}
+//NVBAR
+#nav{
+    display: flex;
+    background-image:linear-gradient(rgb(163, 169, 223), rgb(12, 103, 145));
+border-radius: 20px;
+margin: 17px;
+}
+.dropdown-menu{
+    background-image: linear-gradient(to right,rgb(211, 222, 228), #2196F3);
+}
+#web-name{
+    color: rgb(131, 67, 15);
+    text-align: center;
+    font-size: larger;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.bg-primary{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+//Main Body
+.card0 {
+    width: 94%;
+    border-radius: 20px;
+    
+}
+//Main Body-Left
+ .card1 {
+    background-image: linear-gradient(#2196F3, #81D4FA);
+    padding: 30px 20px 30px 50px;
+    border-radius: 20px;
+}
+#button-temp{
+    margin-top: 1em;
+    width: 4em;
+    height: 4em;
+}
+
+.image {
+    width: 300px;
+    height: 300px
+}
+
+.large-font {
+    font-size: 70px;
+    font-family: Arial
+}
+
+.fa-sun-o {
+    font-size: 22px
+}
+#main-img{
+    border-radius: 20px;
+    width: 100%;
+}
+//Main Body-right
+.card2 {
+    background-color: #607D8B;
+    padding: 0px 0px 40px 40px;
+    border-radius: 20px;
+
+}
+.pop{
+    height: 20px;
+}
+//Sliding Images
+#carousel-example-2{
+    border-radius: 20px;
+}
+
+input {
+    background-color: #607D8B;
+    padding: 24px 0px 12px 0px !important;
+    width: 80%;
+    box-sizing: border-box;
+    border: none !important;
+    border-bottom: 1px solid #CFD8DC !important;
+    font-size: 16px !important;
+    color: #fff !important
+}
+
+input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #fff !important;
+    outline-width: 0;
+    font-weight: 400
+}
+
+::placeholder {
+    color: #B0BEC5 !important;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #B0BEC5 !important
+}
+
+::-ms-input-placeholder {
+    color: #B0BEC5 !important
+}
+
+ .fa-search {
+    color: #607D8B;
+    background-color: rgb(28, 110, 148);
+    font-size: 20px;    
+    width: 20%;
+    cursor: pointer
+}
+.search{
+    width: 56px;
+    height: 100%;
+    
+}
+
+.light-text {
+    color: #B0BEC5
+}
+
+.suggestion:hover {
+    color: #fff;
+    cursor: pointer
+}
+
+.line {
+    height: 1px;
+    background-color: #B0BEC5
+}
+.view{
+    opacity: 0.5;
+}
+#carousel-example-2{
+    border-radius: 20px;
+}
+//Chart Div Styling
+#columnchart_material{
+    width: 100%;
+    height: 500px;
+    margin: 40px,40px,40px,40px;
+    background-image: linear-gradient(#2196F3, #81D4FA);
+    border-radius: 20px;
+}
+.compare{
+    display: flex;
+}
+.btn-compare{
+    background-image:linear-gradient(rgb(163, 169, 223), rgb(12, 103, 145));
+    position: relative;
+    left: 45%;
+    border-radius: 10px;
+}
+//Footer Styling
+.page-footer{
+    background-image: linear-gradient(#2196F3, #81D4FA);
+    padding: 30px  30px ;
+    margin-top: 20px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+p.tag{
+    color: rgb(99, 8, 28);
+}
+.ml-auto{
+    color: rgb(165, 9, 126);
+}
+.col-12{
+    border-radius: 20px;
+    text-align: center;
+}
+//About Us Section
+#aboutUs{
+    background-image: linear-gradient(to right,#2196F3, rgb(211, 222, 228));
+    border-radius: 20px;
+    color: rgb(68, 12, 141);
+}
+#info-p{
+    column-count: 3;
+    }
+div.card{
+    width: 18rem;
+    height: 23rem;
+    margin-top: 10px;
+    margin-left: 10px;   
+    margin-right: 10px;
+    
+}
+.card-img-top{
+   
+    height: 200px;
+    padding: 30px 20px 20px 20px;
+    border-radius: 50%;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact{
+    justify-self: center;
+}
+.button{
+    background-image:linear-gradient(rgb(163, 169, 223), rgb(12, 103, 145));
+    position: relative;   
+    border-radius: 10px;
+}
+.slider{
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#2196F3, rgb(131, 186, 216));
+    width: 90%;
+    
+}
+//responsive 
+@media screen and (max-width: 500px) {
+    .card1 {
+        padding-left: 26px
+    }
+    #info-p {
+        column-count: 1;
+    }
+}
+
